@@ -1,0 +1,34 @@
+.butaca {
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.disponible {
+    background-color: rgb(148, 214, 255);
+    cursor: pointer;
+}
+
+.seleccionado {
+    background-color: rgb(104, 241, 113);
+    cursor: pointer;
+}
+
+.bloqueado {
+    background-color: rgba(233, 34, 34, 0.976);
+    cursor: not-allowed;
+}
+
+.botones {
+    margin-bottom: 10px;
+}
+
+.boton {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    background-color: rgb(6, 116, 184);
+    border: 1px solid black;
+    border-radius: 15px;
+}
